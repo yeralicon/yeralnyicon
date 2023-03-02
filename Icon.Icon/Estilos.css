@@ -1,0 +1,143 @@
+
+body {
+  
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Estilo para el encabezado de la página */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+/* Estilo para la navegación */
+nav {
+  background-color: #FF9F33;
+  color: #808080;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+/* Estilo para los enlaces dentro del texto */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para los botones */
+button {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Estilo para las secciones */
+section {
+  padding: 50px;
+}
+
+/* Estilo para la sección de inicio */
+#inicio {
+  background-color: #f8f9fa;
+}
+
+/* Estilo para la sección de productos */
+#productos {
+  background-color: #fff;
+}
+
+#productos li {
+  display: inline-block;
+  margin-right: 50px;
+  vertical-align: top;
+}
+
+#productos img {
+  width: 200px;
+  height: auto;
+}
+
+/* Estilo para la sección de nosotros */
+#nosotros {
+  background-color: #f8f9fa;
+}
+
+/* Estilo para la sección de contacto */
+#contacto {
+  background-color: #fff;
+}
+
+#contacto label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contacto input,
+#contacto textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#contacto button[type="submit"] {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#contacto button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+ 
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
